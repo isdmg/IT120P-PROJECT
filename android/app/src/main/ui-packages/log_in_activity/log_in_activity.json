@@ -1,0 +1,860 @@
+{
+  "name": "log_in_activity",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "pvdbDolqdcHlEXqVjNeGQT",
+    "node": "21:176",
+    "version": "3229710173",
+    "component-id": "f282112bbc92ffcb99f5d70f5c8e51ffb6d9addf"
+  },
+  "default": "LOG IN ACTIVITY",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 3"
+      },
+      {
+        "type": "image",
+        "id": "logo transparent 4"
+      },
+      {
+        "type": "text",
+        "id": "or"
+      },
+      {
+        "type": "vector",
+        "id": "Line 3"
+      },
+      {
+        "type": "vector",
+        "id": "Line 4"
+      },
+      {
+        "type": "group",
+        "id": "Button 2"
+      },
+      {
+        "type": "group",
+        "id": "Button 1"
+      },
+      {
+        "type": "group",
+        "id": "Password Area"
+      },
+      {
+        "type": "group",
+        "id": "Email Area"
+      },
+      {
+        "type": "text",
+        "id": "Log in or Create an account to continue."
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "text",
+        "id": "Log In"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary1"
+      },
+      {
+        "type": "text",
+        "id": "New here? Sign Up"
+      },
+      {
+        "type": "group",
+        "id": "Box"
+      },
+      {
+        "type": "text",
+        "id": "Password"
+      },
+      {
+        "type": "group",
+        "id": "key"
+      },
+      {
+        "type": "vector",
+        "id": "eye.slash.fill"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "group",
+        "id": "Box1"
+      },
+      {
+        "type": "text",
+        "id": "Email Address"
+      },
+      {
+        "type": "group",
+        "id": "email icon"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "group",
+        "id": "Icon-Envelope"
+      },
+      {
+        "type": "vector",
+        "id": "Fill-3"
+      },
+      {
+        "type": "vector",
+        "id": "Fill-4"
+      }
+    ],
+    "modes": {
+      "LOG IN ACTIVITY": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Vector 3",
+              "logo transparent 4",
+              "or",
+              "Line 3",
+              "Line 4",
+              "Button 2",
+              "Button 1",
+              "Password Area",
+              "Email Area",
+              "Log in or Create an account to continue."
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Vector 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1440.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1141.0"
+              }
+            },
+            "vector-content": "vector_3.svg"
+          },
+          {
+            "id": "logo transparent 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "317.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1122.0"
+              }
+            },
+            "image-content": "logo_transparent_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "or",
+            "margin": {
+              "left": "660.0",
+              "top": "2484.0",
+              "right": "660.0",
+              "bottom": "474.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "or",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "55.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Line 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "167.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2532.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "493.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            }
+          },
+          {
+            "id": "Line 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "781.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2532.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "513.0009765625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            }
+          },
+          {
+            "id": "Button 2",
+            "border-radius": "75.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "306.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2267.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary",
+              "Log In"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Button 1",
+            "border-radius": "75.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "306.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2613.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary1",
+              "New here? Sign Up"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Password Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1917.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box",
+              "Password",
+              "key",
+              "eye.slash.fill"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Email Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1616.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box1",
+              "Email Address",
+              "email icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Log in or Create an account to continue.",
+            "margin": {
+              "left": "122.0",
+              "top": "1520.0",
+              "right": "318.0",
+              "bottom": "1438.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Log in or Create an account to continue.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Button/Primary",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "75.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "342.6666666666667",
+              "saturation": "0.4736842105263158",
+              "value": "0.37254901960784315"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Log In",
+            "margin": {
+              "left": "212.95556640625",
+              "top": "32.0",
+              "right": "212.95556640625",
+              "bottom": "32.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Log In",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "65.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Button/Primary1",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "75.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9372549019607843"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "New here? Sign Up",
+            "margin": {
+              "left": "89.0",
+              "top": "35.0",
+              "right": "88.0",
+              "bottom": "35.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "New here? Sign Up",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "65.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Box",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Password",
+            "margin": {
+              "left": "133.0",
+              "top": "70.0",
+              "right": "672.0",
+              "bottom": "53.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Password",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "key",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.46188122198964"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "65.46202790270308"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.7771458625793457",
+                "0.6293202638626099",
+                "0.0"
+              ],
+              [
+                "-0.6293202638626099",
+                "0.7771458625793457",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.00001525878906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.00001525878906"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "eye.slash.fill",
+            "margin": {
+              "left": "1011.0",
+              "top": "75.0",
+              "right": "58.0",
+              "bottom": "76.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "eye_slash_fill.svg"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "15.36669921875",
+              "top": "17.861328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Box1",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Email Address",
+            "margin": {
+              "left": "133.0",
+              "top": "70.0",
+              "right": "570.04345703125",
+              "bottom": "53.36474609375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Email Address",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "email icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "63.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group"
+            ]
+          },
+          {
+            "id": "Group",
+            "margin": {
+              "left": "12.9091796875",
+              "top": "18.97509765625",
+              "right": "12.75",
+              "bottom": "18.69970703125"
+            },
+            "is-structured": "false",
+            "children": [
+              "Icon-Envelope"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon-Envelope",
+            "is-structured": "false",
+            "children": [
+              "Fill-3",
+              "Fill-4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fill-3",
+            "margin": {
+              "left": "0.47802734375",
+              "top": "4.2626953125",
+              "right": "0.79736328125",
+              "bottom": "4.6748046875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fill_3.svg"
+          },
+          {
+            "id": "Fill-4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fill_4.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "LOG IN ACTIVITY",
+      "size": {
+        "width": 1440.0,
+        "height": 3040.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

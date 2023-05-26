@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeFragment"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/leftover_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="-0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rightover_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vector_10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/product_details_activity_rectangle_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:rotation="-30"
+        android:alpha="0.1"
+
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/product_details_activity_wmg_transparent_1_4"
+        app:layout_constraintBottom_toBottomOf="@id/vector_division2"
+        app:layout_constraintLeft_toLeftOf="@+id/leftover_guideline"
+        app:layout_constraintRight_toRightOf="@+id/rightover_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.paulrybitskyi.persistentsearchview.PersistentSearchView
+        android:id="@+id/persistentSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:areSuggestionsDisabled="true"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        app:cardCornerRadius="0dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft = "15dp"
+                android:id="@+id/category_bags"
+                android:text="Bags"
+                android:textAlignment="center"
+                android:visibility="gone"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_below="@+id/category_bags"
+                android:id="@+id/recycler_view_bags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_bags"
+                android:id="@+id/category_fans"
+                android:text="Fans"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/recycler_view_fans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_fans"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_fans"
+                android:id="@+id/category_hats"
+                android:text="Hats"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_hats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_hats"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_hats"
+                android:id="@+id/category_hoodies"
+                android:text="Hoodies"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_hoodies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_hoodies"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_hoodies"
+                android:id="@+id/category_lanyards"
+                android:text="Lanyards"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_lanyards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_lanyards"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_lanyards"
+                android:id="@+id/category_masks"
+                android:text="Masks"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_masks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_masks"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_masks"
+                android:id="@+id/category_shirts"
+                android:text="Shirts"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_shirt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_shirts"
+                android:layout_marginTop="1dp" />
+
+            <TextView
+                style="@style/card_char"
+                android:layout_below="@+id/recycler_view_shirt"
+                android:id="@+id/category_sweaters"
+                android:text="Sweaters"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginTop="80dp"
+
+                android:textSize="14sp"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textColor="@color/black"
+
+                android:layout_width="wrap_content"
+                android:minWidth="150dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/white_rectangle" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_sweaters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_sweaters"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="25dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#31465E">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content"
+        android:src="@drawable/account_bg_element"
+        android:adjustViewBounds="true"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/account_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/text_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/account_details_activity_person_crop_circle_fill"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/topguideline" />
+
+    <TextView
+        android:id="@+id/text_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/account_image"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        android:text="Welcome John Lee!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/relay_poppins_bold"
+        app:layout_constraintTop_toBottomOf="@+id/account_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <Button
+        android:id="@+id/button_profile_activity"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#F9D341"
+        android:textColor="#91000000"
+        android:text="Edit Profile"
+
+        android:textSize="13dp"
+        android:textAllCaps="false"
+
+
+        android:fontFamily="@font/relay_poppins_medium"
+        app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent2"
+        android:drawableLeft="@drawable/iconprofile3"
+
+        app:layout_constraintLeft_toLeftOf="@id/leftguideline"
+        app:layout_constraintRight_toRightOf="@id/rightguideline"
+        app:layout_constraintTop_toBottomOf="@+id/text_username"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/button_orders"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#F9D341"
+        android:textColor="#91000000"
+
+        android:text="Orders"
+        android:textSize="13dp"
+        android:textAllCaps="false"
+
+        android:fontFamily="@font/relay_poppins_medium"
+        app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent2"
+        android:drawableLeft="@drawable/iconorders"
+
+        android:gravity="center"
+        android:textAlignment="gravity"
+
+        app:layout_constraintLeft_toLeftOf="@id/leftguideline"
+        app:layout_constraintRight_toRightOf="@id/rightguideline"
+        app:layout_constraintTop_toBottomOf="@+id/button_profile_activity"
+
+        />
+
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#911716"
+        android:textColor="@color/white"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:fontFamily="@font/relay_poppins_semibold"
+        app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+
+        app:layout_constraintLeft_toLeftOf="@id/leftguideline"
+        app:layout_constraintRight_toRightOf="@id/rightguideline"
+        app:layout_constraintTop_toBottomOf="@+id/button_orders"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        app:layout_goneMarginBottom="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/leftguideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rightguideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/topguideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

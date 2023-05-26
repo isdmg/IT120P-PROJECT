@@ -1,0 +1,8 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.btn-purple {
+  background-color: #5f323f;
+  box-shadow: 0 4px 9px -4px #5f323f;
+}

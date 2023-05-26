@@ -1,0 +1,396 @@
+{
+  "name": "onboarding_page_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "4X7hrdvUsKh5PwSIXTu97s",
+    "node": "245:107",
+    "version": "3242163001",
+    "component-id": "5fd4adb7606fb63d04ce288918ed2cc23358dc05"
+  },
+  "default": "ONBOARDING PAGE 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 1"
+      },
+      {
+        "type": "group",
+        "id": "circle marker"
+      },
+      {
+        "type": "image",
+        "id": "Untitled design 1"
+      },
+      {
+        "type": "text",
+        "id": "Look for Merchandise"
+      },
+      {
+        "type": "text",
+        "id": "Find your favorite WebMa Merchandise!"
+      },
+      {
+        "type": "group",
+        "id": "Group 145"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "text",
+        "id": "Next"
+      }
+    ],
+    "modes": {
+      "ONBOARDING PAGE 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Vector 1",
+              "circle marker",
+              "Untitled design 1",
+              "Look for Merchandise",
+              "Find your favorite WebMa Merchandise!",
+              "Group 145"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Vector 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-17.31945186574444"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1385.577167782605"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1487.8759765625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1659.3623046875"
+              }
+            },
+            "vector-content": "vector_1.svg"
+          },
+          {
+            "id": "circle marker",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "123.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2814.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "346.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 1",
+              "Ellipse 2",
+              "Ellipse 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Untitled design 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-270.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "600.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1440.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "2098.0"
+              }
+            },
+            "image-content": "untitled_design_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Look for Merchandise",
+            "margin": {
+              "left": "440.0",
+              "top": "370.0",
+              "right": "123.0",
+              "bottom": "2550.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "0.8",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Look for Merchandise",
+            "overflow": "visible",
+            "text-size": "80.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Find your favorite WebMa Merchandise!",
+            "margin": {
+              "left": "674.0",
+              "top": "554.0",
+              "right": "123.0",
+              "bottom": "2336.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.8",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Find your favorite WebMa\nMerchandise!",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "50.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 145",
+            "border-radius": "39.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1022.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "125.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "296.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary",
+              "Next"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "76.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Ellipse 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "135.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "76.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "Ellipse 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "270.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "76.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.0"
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          },
+          {
+            "id": "Button/Primary",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "39.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "296.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              }
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "212.1951219512195",
+              "saturation": "0.16734693877551018",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Next",
+            "margin": {
+              "left": "75.0",
+              "top": "4.0",
+              "right": "75.0",
+              "bottom": "34.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.11764705882352941"
+            },
+            "text-content": "Next",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "60.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "ONBOARDING PAGE 1",
+      "size": {
+        "width": 1440.0,
+        "height": 3040.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

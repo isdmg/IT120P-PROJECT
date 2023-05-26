@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="center_guideline" type="id" />
+    <item name="vector_division" type="id" />
+    <item name="vector_division2" type="id" />
+    <item name="vector_10" type="id" />
+    <item name="rectangle" type="id" />
+    <item name="left_guideline" type="id" />
+    <item name="right_guideline" type="id" />
+    <item name="top_guideline" type="id" />
+    <item name="bottom_guideline" type="id" />
+    <item name="leftover_guideline" type="id" />
+    <item name="rightover_guideline" type="id" />
+    <item name="textView" type="id" />
+    <item name="input_phone_num" type="id" />
+    <item name="text_createAccount" type="id" />
+    <item name="layout_signup_name" type="id" />
+    <item name="signup_name" type="id" />
+    <item name="charCountSignupName" type="id" />
+    <item name="input_student_no" type="id" />
+    <item name="charCountStudentNumber" type="id" />
+    <item name="input_email_address" type="id" />
+</resources>

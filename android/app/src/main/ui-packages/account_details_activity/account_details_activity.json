@@ -1,0 +1,1035 @@
+{
+  "name": "account_details_activity",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "pvdbDolqdcHlEXqVjNeGQT",
+    "node": "30:117",
+    "version": "3285629231",
+    "component-id": "29cef78ddddc208e44b41a9f40300c9af604d74a"
+  },
+  "default": "ACCOUNT DETAILS ACTIVITY",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Untitled design(4) 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "group",
+        "id": "Save Button"
+      },
+      {
+        "type": "text",
+        "id": "EDIT PROFILE"
+      },
+      {
+        "type": "image",
+        "id": "User Icon"
+      },
+      {
+        "type": "group",
+        "id": "Back Button"
+      },
+      {
+        "type": "group",
+        "id": "Phone No Area"
+      },
+      {
+        "type": "group",
+        "id": "Student Number Area"
+      },
+      {
+        "type": "group",
+        "id": "Name Area"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "text",
+        "id": "Save"
+      },
+      {
+        "type": "vector",
+        "id": "control"
+      },
+      {
+        "type": "group",
+        "id": "Box"
+      },
+      {
+        "type": "text",
+        "id": "+63 927 436 5474"
+      },
+      {
+        "type": "group",
+        "id": "phone icon"
+      },
+      {
+        "type": "text",
+        "id": "Phone Number"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "group",
+        "id": "Box1"
+      },
+      {
+        "type": "text",
+        "id": "2020111324"
+      },
+      {
+        "type": "group",
+        "id": "Student No icon"
+      },
+      {
+        "type": "text",
+        "id": "Student Number"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "group",
+        "id": "Box2"
+      },
+      {
+        "type": "text",
+        "id": "John Lee"
+      },
+      {
+        "type": "group",
+        "id": "person.crop.circle.fill"
+      },
+      {
+        "type": "text",
+        "id": "Name"
+      },
+      {
+        "type": "group",
+        "id": "Group 245"
+      },
+      {
+        "type": "vector",
+        "id": "person.crop.circle.fill1"
+      },
+      {
+        "type": "group",
+        "id": "pencil.circle.fill"
+      },
+      {
+        "type": "vector",
+        "id": "pencil.circle.fill1"
+      }
+    ],
+    "modes": {
+      "ACCOUNT DETAILS ACTIVITY": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Untitled design(4) 1",
+              "Rectangle 2",
+              "Save Button",
+              "EDIT PROFILE",
+              "User Icon",
+              "Back Button",
+              "Phone No Area",
+              "Student Number Area",
+              "Name Area"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Untitled design(4) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1106.5180180817842"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "407.4685315042734"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9970021843910217",
+                "-0.07737419009208679",
+                "0.0"
+              ],
+              [
+                "0.07737419009208679",
+                "0.9970021843910217",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "3473.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "5265.0"
+              }
+            },
+            "image-content": "untitled_design_4_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 2",
+            "border-radius": "221.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-53.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "796.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1543.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "2318.0"
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "Save Button",
+            "border-radius": "75.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "296.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2415.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary",
+              "Save"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "EDIT PROFILE",
+            "margin": {
+              "left": "546.0",
+              "top": "130.0",
+              "right": "537.0",
+              "bottom": "2820.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "EDIT PROFILE",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "60.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "User Icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "442.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "518.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "552.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "556.0"
+              }
+            },
+            "image-content": "user_icon.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Back Button",
+            "margin": {
+              "left": "62.08762470178141",
+              "top": "147.2311890006318",
+              "right": "1296.0875538260507",
+              "bottom": "2837.148590815042"
+            },
+            "relative-transform": [
+              [
+                "-0.004647629335522652",
+                "0.9999892115592957",
+                "0.0"
+              ],
+              [
+                "-0.9999892115592957",
+                "-0.004647629335522652",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "control"
+            ]
+          },
+          {
+            "id": "Phone No Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1907.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "307.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box",
+              "+63 927 436 5474",
+              "phone icon",
+              "Phone Number"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Student Number Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1519.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "311.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box1",
+              "2020111324",
+              "Student No icon",
+              "Student Number"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Name Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1137.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "305.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box2",
+              "John Lee",
+              "person.crop.circle.fill",
+              "Name"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Button/Primary",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "75.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "47.540983606557376",
+              "saturation": "0.7379032258064516",
+              "value": "0.9725490196078431"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Save",
+            "margin": {
+              "left": "212.955322265625",
+              "top": "32.0",
+              "right": "212.955810546875",
+              "bottom": "32.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Save",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "65.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "control",
+            "margin": {
+              "left": "10.62451171875",
+              "top": "0.000244140625",
+              "right": "25.90880584716797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "control.svg"
+          },
+          {
+            "id": "Box",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "93.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "+63 927 436 5474",
+            "margin": {
+              "left": "183.0",
+              "top": "163.0",
+              "right": "202.0",
+              "bottom": "53.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "+63 927 436 5474",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "phone icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "161.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "82.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Phone Number",
+            "margin": {
+              "right": "831.0",
+              "bottom": "247.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Phone Number",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "46.0",
+            "line-height": "1.3",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "1.63916015625",
+              "top": "1.660400390625",
+              "right": "1.640625",
+              "bottom": "1.660888671875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Box1",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "97.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "2020111324",
+            "margin": {
+              "left": "179.0",
+              "top": "166.0",
+              "right": "206.0",
+              "bottom": "54.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "2020111324",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Student No icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "53.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "160.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2"
+            ]
+          },
+          {
+            "id": "Student Number",
+            "margin": {
+              "right": "794.0",
+              "bottom": "251.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Student Number",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "46.0",
+            "line-height": "1.3",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "7.083251953125",
+              "top": "7.25",
+              "right": "7.08349609375",
+              "bottom": "7.2489013671875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Box2",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "91.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "John Lee",
+            "margin": {
+              "left": "183.0",
+              "top": "163.0",
+              "right": "202.0",
+              "bottom": "51.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "John Lee",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "person.crop.circle.fill",
+            "margin": {
+              "left": "24.0",
+              "top": "123.0",
+              "right": "1002.0",
+              "bottom": "32.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 245"
+            ]
+          },
+          {
+            "id": "Name",
+            "margin": {
+              "left": "4.0",
+              "right": "1031.0",
+              "bottom": "245.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Name",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "46.0",
+            "line-height": "1.3",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 245",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "26.26806640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "24.462890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.417236328125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.370361328125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "person.crop.circle.fill1",
+              "pencil.circle.fill"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "person.crop.circle.fill1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "person_crop_circle_fill.svg"
+          },
+          {
+            "id": "pencil.circle.fill",
+            "presence": "false",
+            "margin": {
+              "left": "62.972412109375",
+              "top": "61.5244140625"
+            },
+            "is-structured": "false",
+            "children": [
+              "pencil.circle.fill1"
+            ]
+          },
+          {
+            "id": "pencil.circle.fill1",
+            "margin": {
+              "left": "6.982666015625",
+              "top": "6.556884765625",
+              "right": "6.994873046875",
+              "bottom": "7.509765625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "ACCOUNT DETAILS ACTIVITY",
+      "size": {
+        "width": 1440.0,
+        "height": 3040.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

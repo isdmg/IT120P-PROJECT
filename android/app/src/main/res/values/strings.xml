@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">WebmaStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="firstNameLastName">Name (First Name, Last Name)</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="back_button">Back Button</string>
+
+    <string name="sign_up">Sign up</string>
+    <string name="proceed">Next</string>
+    <string name="signuphere">New Here? Sign Up</string>
+    <string name="second_name">Second Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="sex">Sex</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Postal/Zip Code</string>
+    <string name="city">City</string>
+    <string name="province_state">Province/State</string>
+    <string name="country">Country</string>
+    <string name="telephone_number">Telephone Number</string>
+    <string name="web_site">Web Site</string>
+
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="student_number">Student Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_password">Create Password</string>
+    <string name="upload_profile_photo">Upload Profile Photo</string>
+    <string name="log_in_or_create_an_account_to_continue">Log in or Create an account to continue.</string>
+    <string name="log_in">Log In</string>
+    <string name="next">Next</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="ty_text2">Your order has been received by our staff. Please expect a message regarding your order and payment shortly!</string>
+    <string name="abt_text2">The WebMasters Guild shall become the means of communication between people who share the same interest. The organization aims to increase the member’s knowledge in the science, design, development, management, and application of webpages using various software such as Dreamweaver, Macromedia Flash, Photoshop, and the like. Besides webpage design and development, the WebMasters Guild also addresses to improve the member’s proficiency in using other programming languages so they be able easily adapt and excel in the other fields of Information Technology</string>
+    <string name="abt_text4">The Vision of WebMasters Guild is to provide stronger unity among the students of Mapúa University towards the discovery of creative and innovative ideas in the field of Webpage Design and Development.</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="please_select_a_payment_method_below">Please select a payment method below!</string>
+    <string name="total_price_500">Total Price: ₱500</string>
+    <string name="proof_of_payment">Proof of Payment</string>
+    <string name="submit">Submit</string>
+    <string name="cart">CART</string>
+
+    <string-array name="sex_array">
+        <item>Select Sex</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Not Specified</item>
+    </string-array>
+
+    <string-array name="payment_method_array">
+        <item>GCash</item>
+        <item>Cash on Pick-up</item>
+    </string-array>
+
+</resources>

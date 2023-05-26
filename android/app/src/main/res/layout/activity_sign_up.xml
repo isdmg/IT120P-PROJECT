@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/center_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottom_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/leftover_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="-0.04" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rightover_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.04" />
+
+    <!-- Vector 10 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vector_10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/sign_up_1_activity_vector_9"
+        app:layout_constraintBottom_toBottomOf="@+id/vector_division"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/text_createAccount"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/relay_poppins_medium"
+            android:text="@string/create_account"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/backToPrevious"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toLeftOf="@+id/left_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sign_up_1_activity_control"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:contentDescription="Back" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:src="@drawable/sign_up_1_activity_rectangle_1"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/leftover_guideline"
+        app:layout_constraintRight_toRightOf="@+id/rightover_guideline"
+        app:layout_constraintTop_toTopOf="@id/vector_division3" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/sign_up_1_activity_cart"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/top_guideline" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/relay_poppins_medium"
+        android:text="@string/sign_up"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintTop_toTopOf="@id/vector_division2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/vector_division2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/left_guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/right_guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+            <!-- username -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_signup_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+
+                android:fontFamily="@font/relay_poppins_regular"
+                android:textColorHint="#45474B"
+
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxStrokeColor="@color/text_input_box_stroke"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="2dp"
+
+                app:hintTextColor="#5F323F"
+
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:startIconDrawable="@drawable/iconprofile">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signup_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/firstNameLastName"
+                    android:inputType="text"
+
+                    android:maxLength="30"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- studnum-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_student_no"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/relay_poppins_regular"
+                android:textColorHint="#45474B"
+
+                app:hintTextColor="#5F323F"
+
+                app:boxCornerRadiusBottomEnd="13dp"
+                app:boxCornerRadiusBottomStart="13dp"
+                app:boxCornerRadiusTopEnd="13dp"
+
+                app:boxCornerRadiusTopStart="13dp"
+                app:boxStrokeColor="@color/text_input_box_stroke"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="2dp"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/layout_signup_name"
+                app:startIconDrawable="@drawable/iconstudnum">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/student_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/student_number"
+
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- emailadd-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_email_address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/relay_poppins_regular"
+                android:textColorHint="#45474B"
+
+                app:hintTextColor="#5F323F"
+
+                app:boxCornerRadiusBottomEnd="13dp"
+                app:boxCornerRadiusBottomStart="13dp"
+                app:boxCornerRadiusTopEnd="13dp"
+
+                app:boxCornerRadiusTopStart="13dp"
+                app:boxStrokeColor="@color/text_input_box_stroke"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="2dp"
+
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/layout_student_no"
+                app:startIconDrawable="@drawable/iconemail">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- phone num-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_phone_num"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+
+                android:fontFamily="@font/relay_poppins_regular"
+                android:textColorHint="#45474B"
+
+                app:hintTextColor="#5F323F"
+
+                android:textSize="14sp"
+                app:boxCornerRadiusBottomEnd="13dp"
+                app:boxCornerRadiusBottomStart="13dp"
+                app:boxCornerRadiusTopEnd="13dp"
+
+                app:boxCornerRadiusTopStart="13dp"
+                app:boxStrokeColor="@color/text_input_box_stroke"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="2dp"
+
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/layout_email_address"
+
+                app:prefixText="+63 "
+                app:startIconDrawable="@drawable/iconphone">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/next"
+                android:layout_width="234dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#5F323F"
+
+                android:text="Next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/layout_phone_num"
+                app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

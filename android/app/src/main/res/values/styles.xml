@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Til" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent2" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="card_char">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+
+
+
+
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "92273617693",
+    "project_id": "webmastore-guild",
+    "storage_bucket": "webmastore-guild.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92273617693:android:886057c54e53d6c1764ff4",
+        "android_client_info": {
+          "package_name": "com.example.webmastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92273617693-vh0vj71a1g0je3c3co9c4ep86cucrvba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZX0nr2Q6lZdlsgSpHsAHz9kVgE_hFTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92273617693-en24bgf0glfpvpdogdgtnd54ap8763n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92273617693:android:7415798f7d77d5f4764ff4",
+        "android_client_info": {
+          "package_name": "webma.merch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92273617693-vh0vj71a1g0je3c3co9c4ep86cucrvba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZX0nr2Q6lZdlsgSpHsAHz9kVgE_hFTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92273617693-en24bgf0glfpvpdogdgtnd54ap8763n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

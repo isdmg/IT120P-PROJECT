@@ -1,0 +1,1312 @@
+{
+  "name": "sign_up_1_activity",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "pvdbDolqdcHlEXqVjNeGQT",
+    "node": "21:182",
+    "version": "3229710173",
+    "component-id": "fb6001ad7474ae8fcc3432099c0ac7218019de98"
+  },
+  "default": "SIGN UP 1 ACTIVITY",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Vector 10"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "Sign Up"
+      },
+      {
+        "type": "group",
+        "id": "Image"
+      },
+      {
+        "type": "group",
+        "id": "Button 2"
+      },
+      {
+        "type": "group",
+        "id": "Phone Area"
+      },
+      {
+        "type": "group",
+        "id": "Email Area"
+      },
+      {
+        "type": "group",
+        "id": "Student Number Area"
+      },
+      {
+        "type": "group",
+        "id": "Name Area"
+      },
+      {
+        "type": "text",
+        "id": "0/30"
+      },
+      {
+        "type": "text",
+        "id": "0/12"
+      },
+      {
+        "type": "group",
+        "id": "Back Button"
+      },
+      {
+        "type": "text",
+        "id": "Create Account"
+      },
+      {
+        "type": "vector",
+        "id": "363335_finger print_id_touch_touch id_icon 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 9"
+      },
+      {
+        "type": "image",
+        "id": "Cart"
+      },
+      {
+        "type": "image",
+        "id": "Shoes"
+      },
+      {
+        "type": "image",
+        "id": "All"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "text",
+        "id": "Next"
+      },
+      {
+        "type": "group",
+        "id": "Box"
+      },
+      {
+        "type": "text",
+        "id": "Phone Number"
+      },
+      {
+        "type": "group",
+        "id": "phone icon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "group",
+        "id": "Box1"
+      },
+      {
+        "type": "text",
+        "id": "Email Address"
+      },
+      {
+        "type": "group",
+        "id": "email icon"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "group",
+        "id": "Icon-Envelope"
+      },
+      {
+        "type": "vector",
+        "id": "Fill-3"
+      },
+      {
+        "type": "vector",
+        "id": "Fill-4"
+      },
+      {
+        "type": "group",
+        "id": "Box2"
+      },
+      {
+        "type": "text",
+        "id": "Student Number"
+      },
+      {
+        "type": "group",
+        "id": "Student No icon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "group",
+        "id": "Box3"
+      },
+      {
+        "type": "text",
+        "id": "Name (First Name, Last Name)"
+      },
+      {
+        "type": "group",
+        "id": "person.crop.circle.fill"
+      },
+      {
+        "type": "group",
+        "id": "Group 245"
+      },
+      {
+        "type": "vector",
+        "id": "person.crop.circle.fill1"
+      },
+      {
+        "type": "group",
+        "id": "pencil.circle.fill"
+      },
+      {
+        "type": "vector",
+        "id": "pencil.circle.fill1"
+      },
+      {
+        "type": "vector",
+        "id": "control"
+      }
+    ],
+    "modes": {
+      "SIGN UP 1 ACTIVITY": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Vector 10",
+              "Rectangle 1",
+              "Sign Up",
+              "Image",
+              "Button 2",
+              "Phone Area",
+              "Email Area",
+              "Student Number Area",
+              "Name Area",
+              "0/30",
+              "0/12",
+              "Back Button",
+              "Create Account",
+              "363335_finger print_id_touch_touch id_icon 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Vector 10",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1440.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1353.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector 9"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "221.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-53.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1053.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1546.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "2061.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Sign Up",
+            "margin": {
+              "left": "132.0",
+              "top": "1228.0",
+              "right": "308.0",
+              "bottom": "1730.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Sign Up",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Image",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "182.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "286.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1041.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "942.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Cart",
+              "Shoes",
+              "All"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Button 2",
+            "border-radius": "75.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "306.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2673.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary",
+              "Next"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Phone Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2342.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box",
+              "Phone Number",
+              "phone icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Email Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2042.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box1",
+              "Email Address",
+              "email icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Student Number Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1695.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box2",
+              "Student Number",
+              "Student No icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Name Area",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1353.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Box3",
+              "Name (First Name, Last Name)",
+              "person.crop.circle.fill"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "0/30",
+            "margin": {
+              "left": "1165.0",
+              "top": "1583.0",
+              "right": "132.0",
+              "bottom": "1366.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "0/30",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "0/12",
+            "margin": {
+              "left": "1165.0",
+              "top": "1930.0",
+              "right": "132.0",
+              "bottom": "1019.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "0/12",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Back Button",
+            "margin": {
+              "left": "63.08762470178141",
+              "top": "124.23118900063179",
+              "right": "1295.0875538260507",
+              "bottom": "2860.148590815042"
+            },
+            "relative-transform": [
+              [
+                "-0.004647629335522652",
+                "0.9999892115592957",
+                "0.0"
+              ],
+              [
+                "-0.9999892115592957",
+                "-0.004647629335522652",
+                "0.0"
+              ]
+            ],
+            "is-structured": "false",
+            "children": [
+              "control"
+            ]
+          },
+          {
+            "id": "Create Account",
+            "margin": {
+              "left": "484.0",
+              "top": "99.0",
+              "right": "484.0",
+              "bottom": "2851.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "212.1951219512195",
+              "saturation": "0.16734693877551018",
+              "value": "0.9607843137254902"
+            },
+            "text-content": "Create Account",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "60.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "363335_finger print_id_touch_touch id_icon 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "223.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1701.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "158.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "154.0"
+              }
+            }
+          },
+          {
+            "id": "Vector 9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector_9.svg"
+          },
+          {
+            "id": "Cart",
+            "margin": {
+              "left": "621.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "cart.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Shoes",
+            "margin": {
+              "top": "728.0",
+              "right": "704.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "cart.png",
+            "scale": "fill"
+          },
+          {
+            "id": "All",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "cart.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Button/Primary",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "75.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              }
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "342.6666666666667",
+              "saturation": "0.4736842105263158",
+              "value": "0.37254901960784315"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Next",
+            "margin": {
+              "left": "212.95556640625",
+              "top": "32.0",
+              "right": "212.95556640625",
+              "bottom": "32.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Next",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "65.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Box",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Phone Number",
+            "margin": {
+              "left": "142.0",
+              "top": "69.0",
+              "right": "561.04345703125",
+              "bottom": "54.36474609375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Phone Number",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "phone icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "72.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "82.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "1.63916015625",
+              "top": "1.66015625",
+              "right": "1.640625",
+              "bottom": "1.6611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Box1",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Email Address",
+            "margin": {
+              "left": "133.0",
+              "top": "70.0",
+              "right": "570.04345703125",
+              "bottom": "53.36474609375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Email Address",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "email icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "63.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group"
+            ]
+          },
+          {
+            "id": "Group",
+            "margin": {
+              "left": "12.9091796875",
+              "top": "18.97509765625",
+              "right": "12.75",
+              "bottom": "18.69970703125"
+            },
+            "is-structured": "false",
+            "children": [
+              "Icon-Envelope"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon-Envelope",
+            "is-structured": "false",
+            "children": [
+              "Fill-3",
+              "Fill-4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Fill-3",
+            "margin": {
+              "left": "0.47802734375",
+              "top": "4.2626953125",
+              "right": "0.79736328125",
+              "bottom": "4.6748046875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fill_3.svg"
+          },
+          {
+            "id": "Fill-4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "fill_4.svg"
+          },
+          {
+            "id": "Box2",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Student Number",
+            "margin": {
+              "left": "150.0",
+              "top": "69.0",
+              "right": "535.0",
+              "bottom": "54.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Student Number",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Student No icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "57.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "63.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "85.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2"
+            ]
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "7.08349609375",
+              "top": "7.25",
+              "right": "7.0830078125",
+              "bottom": "7.2490234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Box3",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "47.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1176.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              }
+            },
+            "stroke-width": "5.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "main-axis-align": "start",
+            "item-spacing": "12.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Name (First Name, Last Name)",
+            "margin": {
+              "left": "167.0",
+              "top": "69.0",
+              "right": "218.0",
+              "bottom": "54.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "219.99999999999997",
+              "saturation": "0.08000000000000008",
+              "value": "0.29411764705882354"
+            },
+            "text-content": "Name (First Name, Last Name)",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "48.0",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "person.crop.circle.fill",
+            "margin": {
+              "left": "24.0",
+              "top": "32.0",
+              "right": "1002.0",
+              "bottom": "32.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 245"
+            ]
+          },
+          {
+            "id": "Group 245",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "26.26806640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "24.462890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.41748046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.3701171875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "person.crop.circle.fill1",
+              "pencil.circle.fill"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "person.crop.circle.fill1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "person_crop_circle_fill.svg"
+          },
+          {
+            "id": "pencil.circle.fill",
+            "presence": "false",
+            "margin": {
+              "left": "62.97265625",
+              "top": "61.5244140625"
+            },
+            "is-structured": "false",
+            "children": [
+              "pencil.circle.fill1"
+            ]
+          },
+          {
+            "id": "pencil.circle.fill1",
+            "margin": {
+              "left": "6.982421875",
+              "top": "6.556640625",
+              "right": "6.99560546875",
+              "bottom": "7.51025390625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "control",
+            "margin": {
+              "left": "10.625",
+              "right": "25.90831756591797"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "control.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "SIGN UP 1 ACTIVITY",
+      "size": {
+        "width": 1440.0,
+        "height": 3040.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

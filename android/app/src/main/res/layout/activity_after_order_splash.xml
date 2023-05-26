@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+
+    <!-- Constraints -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/center_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vector_division2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thankyou_bg" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/log_in_activity_logo_transparent_4"
+        app:layout_constraintBottom_toBottomOf="@id/vector_division2"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vector_division">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/left_guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/right_guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+            <TextView
+                android:id="@+id/ty_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:fontFamily="@font/relay_poppins_bold"
+                android:textSize="30sp"
+                android:text="Thank you for your purchase!"
+                android:textColor="@color/white"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2" />
+
+            <TextView
+                android:id="@+id/ty_text2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:fontFamily="@font/relay_poppins_medium"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="@string/ty_text2"
+                android:textColor="@color/white"
+
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/ty_text"/>
+
+
+            <Button
+                android:id="@+id/return_home_btn"
+                android:layout_width="234dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#5F323F"
+                android:text="Return home"
+                android:textAllCaps="false"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="90dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ty_text2"
+                app:layout_constraintLeft_toLeftOf="@+id/left_guideline2"
+                app:layout_constraintRight_toRightOf="@+id/right_guideline2"
+                app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

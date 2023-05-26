@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cart_bg">
+
+    <TextView
+        android:id="@+id/cart_title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/cart"
+        android:textColor="#FAF6F6"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/cart_subtext"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cart_title"
+        android:layout_centerHorizontal="true"
+        android:text="Almost done! Please verify your order below."
+        android:textColor="#FAF6F6"
+        />
+
+    <TextView
+        android:id="@+id/cart_subtext2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cart_title"
+        android:layout_centerHorizontal="true"
+        android:text="Your cart is empty! Add products from our listings."
+        android:textColor="#FAF6F6" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_cart_total"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp"
+        android:layout_below="@id/cart_subtext"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:layout_gravity="center">
+
+
+
+                    <ImageView
+                        android:id="@+id/cart_line1"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+
+                    <TextView
+                        android:id="@+id/cart_delivery_and_total_fee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/cart_line1"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="Total Price: ₱" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/no_items_cart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        app:srcCompat="@drawable/no_items_cart" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_cart_products"
+        android:layout_width="350dp"
+        android:layout_height="340dp"
+        android:layout_below="@+id/cardview_cart_total"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_checkout"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview_cart_products"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F9D341"
+        android:elevation="15dp"
+        android:text="Proceed to Checkout"
+        android:textAllCaps="false"
+        android:textColor="#070707"
+        app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
+
+</RelativeLayout>
